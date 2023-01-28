@@ -1,4 +1,4 @@
-package main.java.com.example.jibtest.controller;
+package com.example.jibtest.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMethod;
