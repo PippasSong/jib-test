@@ -36,4 +36,8 @@ jib {
 		//베이스 이미지 지정
 		image = 'adoptopenjdk/openjdk14:alpine'
 	}
+	to {
+		//이미지 저장소 주소
+		image = 'tlmag2108/jib-test'
+	}
 }
