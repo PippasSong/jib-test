@@ -39,7 +39,7 @@ jib {
 	to {
 		//이미지 저장소 주소
 		image = 'tlmag2108/jib-test'
-		tage = ['latest']
+		tags = ['latest']
 	}
 	container {
 		// 앱을 실행 시 JVM에 전달 가능한 옵션들
