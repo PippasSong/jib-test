@@ -39,5 +39,6 @@ jib {
 	to {
 		//이미지 저장소 주소
 		image = 'tlmag2108/jib-test'
+		tage = ['latest']
 	}
 }
