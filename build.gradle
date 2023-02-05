@@ -41,4 +41,9 @@ jib {
 		image = 'tlmag2108/jib-test'
 		tage = ['latest']
 	}
+	container {
+		// 앱을 실행 시 JVM에 전달 가능한 옵션들
+		// 최소, 최대 메모리 설정
+		jvmFlags = ['-Xms128m', '-Xmx256m']
+	}
 }
