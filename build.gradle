@@ -33,6 +33,7 @@ tasks.named('test') {
 
 jib {
 	from {
+		//베이스 이미지 지정
 		image = 'adoptopenjdk/openjdk14:alpine'
 	}
 }
